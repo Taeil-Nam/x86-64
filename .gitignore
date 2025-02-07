@@ -1,3 +1,7 @@
 .vscode/
 srcs/VSCmdLine.lnk
 .DS_Store
+practice/*.exe
+practice/*.ilk
+practice/*.obj
+practice/*.pdb

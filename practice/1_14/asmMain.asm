@@ -2,12 +2,20 @@ maxLen      =           256 ; 상수 maxLen
 nl          =           10 ; 상수 nl(new line(\n))
 
             .data
+titleStr    byte        "Practice1_14", 0
 prompt      byte        "Enter input: ", 0
 input       byte        maxLen dup (?) ; 256바이트 크기의 메모리 할당(초기화X)
 fmtStr      byte        "User input: '%s'", nl, 0
+
             .code
             externdef   printf:proc
             externdef   readLine:proc
+
+            public      getTitle
+getTitle    proc
+            lea         rax, titleStr
+            ret;
+getTitle    endp
 
             public      asmMain
 asmMain     proc
