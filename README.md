@@ -10,4 +10,5 @@ This repository have example codes of `The Art of 64-Bit Assembly Language`.
 02/09/2025 : Section 1.18  
 02/11/2025 : Section 2 ~ 2.2  
 02/12/2025 : Section 2.3 ~ 2.6  
-02/14/2025 : Section 2.7 ~ 2.9
+02/14/2025 : Section 2.7 ~ 2.9  
+02/19/2025 : Section 2.10 ~ 2.11  
